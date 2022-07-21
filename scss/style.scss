@@ -2160,16 +2160,13 @@ a{
                  display: grid; 
                  place-items: center;
                  grid-template-columns: 1fr; 
-                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+                 grid-template-rows: 1fr 1fr 1fr 1fr; 
                  gap: 50px 0px; 
                  grid-template-areas: 
                    "pro-1"
                    "pro-2"
                    "pro-3"
-                   "pro-4"
-                   "pro-5"
-                   "pro-6"
-                ;
+                   "pro-4";
 
                 .pro-one{
                     height: 150px;
@@ -2264,6 +2261,7 @@ a{
                     }
                 }
                 .pro-five{
+                    display: none;
                     height: 150px;
                     width: 100%;
 
@@ -2279,6 +2277,7 @@ a{
                     }
                 }
                 .pro-six{
+                    display: none;
                     height: 150px;
                     width: 100%;
 
@@ -2389,7 +2388,7 @@ a{
         }
     
      .contacts-section{
-        margin-top: 500px;
+      
 
         .contact-title{
 
@@ -2641,16 +2640,13 @@ a{
                  display: grid; 
                  place-items: center;
                  grid-template-columns: 1fr; 
-                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+                 grid-template-rows: 1fr 1fr 1fr 1fr; 
                  gap: 15px 0px; 
                  grid-template-areas: 
                    "pro-1"
                    "pro-2"
                    "pro-3"
-                   "pro-4"
-                   "pro-5"
-                   "pro-6"
-                ;
+                   "pro-4";
 
                 .pro-one{
                     height: 150px;
@@ -2727,6 +2723,7 @@ a{
                 .pro-five{
                     height: 150px;
                     width: 100%;
+                    display: none;
 
 
                     .project-5-img{
@@ -2744,9 +2741,10 @@ a{
                     height: 150px;
                     width: 100%;
 
+                    display: none;
 
                     .project-6-img{
-                    
+                        
                         .info-6{
 
                             height: 100%;
@@ -2848,16 +2846,14 @@ a{
             }
         }
 
-    .contacts-section .contactForm-container form {
-            margin-left: 50px;
-    }
+  
     
      .contacts-section{
-        margin-top: 500px;
+        margin-top: 0px;
 
         .contact-title{
 
-            margin-top: 280px;
+            margin-top: 0px;
         }
 
      }
