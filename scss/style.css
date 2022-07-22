@@ -1662,13 +1662,17 @@ a:hover {
   .navbar-container .logo-zaimis {
     z-index: 27;
   }
+  .navbar-container .logo-zaimis img {
+    width: 160px;
+  }
   .navbar-list, .lets-talk-button {
     display: none;
   }
   .hamburger {
     display: blocK;
     position: relative;
-    width: 30px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -1939,7 +1943,7 @@ a:hover {
         grid-template-areas: "pro-1" "pro-2" "pro-3" "pro-4";
   }
   .projects-section .grid-section .grid-container .pro-one {
-    height: 150px;
+    height: 170px;
     width: 100%;
   }
   .projects-section .grid-section .grid-container .pro-one .project-1-img {
@@ -1952,21 +1956,22 @@ a:hover {
   }
   .projects-section .grid-section .grid-container .pro-one .project-1-img .info :nth-child(1) {
     font-size: 22px;
-    margin: 0;
+    margin-top: 5px;
     padding: 0;
   }
   .projects-section .grid-section .grid-container .pro-one .project-1-img .info :nth-child(2) {
-    font-size: 14px;
+    font-size: 13px;
     padding: 0;
     margin: 0;
   }
   .projects-section .grid-section .grid-container .pro-one .project-1-img .info :nth-child(3) {
-    font-size: 14px;
-    margin: 0;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     padding: 0;
   }
   .projects-section .grid-section .grid-container .pro-two {
-    height: 150px;
+    height: 170px;
     width: 100%;
   }
   .projects-section .grid-section .grid-container .pro-two .project-2-img .info-2 {
@@ -1974,7 +1979,7 @@ a:hover {
     opacity: 1;
   }
   .projects-section .grid-section .grid-container .pro-three {
-    height: 150px;
+    height: 170px;
     width: 100%;
   }
   .projects-section .grid-section .grid-container .pro-three .project-3-img .info-3 {
@@ -1982,7 +1987,7 @@ a:hover {
     opacity: 1;
   }
   .projects-section .grid-section .grid-container .pro-four {
-    height: 150px;
+    height: 170px;
     width: 100%;
   }
   .projects-section .grid-section .grid-container .pro-four .project-4-img .info-4 {
@@ -2250,6 +2255,17 @@ a:hover {
   .projects-section .grid-section .grid-container .pro-one .project-1-img .info {
     height: 100%;
     opacity: 1;
+  }
+  .projects-section .grid-section .grid-container .pro-one .project-1-img .info :nth-child(1) {
+    font-size: 16px;
+  }
+  .projects-section .grid-section .grid-container .pro-one .project-1-img .info :nth-child(2) {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .projects-section .grid-section .grid-container .pro-one .project-1-img .info :nth-child(1) {
+    font-size: 14px;
+    margin-bottom: 27px;
   }
   .projects-section .grid-section .grid-container .pro-two {
     height: 150px;
