@@ -1028,8 +1028,7 @@ a{
 
             .grid-container{
                  
-                margin-left: 30PX;
-                margin-right: 30px;
+                margin-left: 90PX;
                 height: 600px;
                 display: grid; 
                 grid-template-columns: 1fr 1fr 1fr; 
@@ -1921,8 +1920,8 @@ a{
     
 
             .grid-container{
-                margin-left: 30PX;
-                margin-right: 30px;
+                margin-left: 70PX;
+                
                 height: 600px;
                 display: grid; 
                 grid-template-columns: 1fr 1fr; 
@@ -2160,7 +2159,8 @@ a{
      
  
              .grid-container{
-        
+                margin-left: 0px;
+
                  height: 600px;
                  display: grid; 
                  place-items: center;
@@ -2641,7 +2641,9 @@ a{
      
  
              .grid-container{
-        
+
+                margin-left: 0;
+                
                  height: 600px;
                  display: grid; 
                  place-items: center;
